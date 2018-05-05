@@ -15,6 +15,22 @@ namespace mandelbrot
         public Form1()
         {
             InitializeComponent();
+            listBox1.SelectedIndex = 0;
+
+        }
+        private void pas_aan(object sender,System.EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_OK_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
