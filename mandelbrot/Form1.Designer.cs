@@ -38,6 +38,8 @@
             this.button_OK = new System.Windows.Forms.Button();
             this.textBox_Max = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.pictureBox_forBM = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_forBM)).BeginInit();
             this.SuspendLayout();
             // 
             // label_midden_x
@@ -141,11 +143,20 @@
             this.listBox1.Size = new System.Drawing.Size(120, 84);
             this.listBox1.TabIndex = 12;
             // 
+            // pictureBox_forBM
+            // 
+            this.pictureBox_forBM.Location = new System.Drawing.Point(48, 195);
+            this.pictureBox_forBM.Name = "pictureBox_forBM";
+            this.pictureBox_forBM.Size = new System.Drawing.Size(800, 800);
+            this.pictureBox_forBM.TabIndex = 13;
+            this.pictureBox_forBM.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1555, 878);
+            this.Controls.Add(this.pictureBox_forBM);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBox_Max);
             this.Controls.Add(this.button_OK);
@@ -158,6 +169,7 @@
             this.Controls.Add(this.label_midden_x);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_forBM)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -174,6 +186,7 @@
         private System.Windows.Forms.Button button_OK;
         private System.Windows.Forms.TextBox textBox_Max;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.PictureBox pictureBox_forBM;
     }
 }
 
